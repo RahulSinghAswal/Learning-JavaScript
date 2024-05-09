@@ -61,3 +61,5 @@ console.log(typeof myFunction); // function object
 console.log(typeof id);
 
 //  all non-primitive types are  function and function type is function object
+
+// https://262.ecma-international.org/5.1/#sec-11.4.3
