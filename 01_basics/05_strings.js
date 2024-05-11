@@ -41,6 +41,6 @@ const url = "https://rahulaswal.online/rahul%20aswal";
 
 console.log(url.replace("%20", "-"));
 
-console.log(url.includes('hitesh'));
+console.log(url.includes("hitesh"));
 
-console.log(gameName.split('-'));
+console.log(gameName.split("-"));
