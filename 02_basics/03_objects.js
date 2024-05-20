@@ -42,8 +42,8 @@ JsUser.greeting = function () {
 };
 
 JsUser.greetingTwo = function () {
-    console.log(`Hello JS user, ${this.name}`);
-}
+  console.log(`Hello JS user, ${this.name}`);
+};
 
 console.log(JsUser.greeting); // undefined
 console.log(JsUser.greeting()); // error shown as we freeze object earlier
