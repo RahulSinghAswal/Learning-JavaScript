@@ -90,3 +90,46 @@ console.log(Object.entries(tinderUser));
 console.log(tinderUser.hasOwnProperty("isLogged"));
 
 //  to get all the methods go for console
+
+//  objects part-3 destructuring and API
+
+const course = {
+  coursename: "JS in Hindi",
+  price: "999",
+  courseInstructor: "Hitesh",
+};
+
+// course.courseInstructor
+
+const { courseInstructor : instructor } = course;
+
+// console.log(courseInstructor);
+console.log(instructor);
+
+//  react part
+
+/*
+const navbar = ({company}) => {
+
+}
+
+navbar(company = "hitesh")
+
+*/
+// pahle values xml format me aati thi ab json (object) me aati hai
+
+// {
+//     "name" : "hitesh",
+//     "coursename" : "js in hindi",
+//     "price": "free"
+
+// }
+
+// kyai baar arrays ke format me bhi mil sakti hai
+
+
+[
+    {}, {}, {}
+]
+
+// tried random user api and json formatter
