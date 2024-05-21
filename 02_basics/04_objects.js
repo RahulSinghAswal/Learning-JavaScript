@@ -101,7 +101,7 @@ const course = {
 
 // course.courseInstructor
 
-const { courseInstructor : instructor } = course;
+const { courseInstructor: instructor } = course;
 
 // console.log(courseInstructor);
 console.log(instructor);
@@ -127,9 +127,6 @@ navbar(company = "hitesh")
 
 // kyai baar arrays ke format me bhi mil sakti hai
 
-
-[
-    {}, {}, {}
-]
+[{}, {}, {}];
 
 // tried random user api and json formatter
