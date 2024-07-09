@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Async JS</title>
+</head>
+
+<body>
+    <h1>Learning JS from Chai aur Code</h1>
+    <!-- handler is a function -->
+
+    <button id="stop">Stop</button>
+
+</body>
+
+<script>
+    const sayRahul = function () {
+        console.log("Rahul");
+
+    }
+    const changeText = function () {
+        document.querySelector('h1').innerHTML = "Best JS Series"
+    }
+    const changeMe = setTimeout(changeText, 2000)
+
+    // use cases -- popup, discount message
+
+    document.querySelector('#stop').addEventListener('click', function () {
+        clearTimeout(changeMe)
+        console.log("Stopped");
+    })
+
+</script>
+
+</html>
